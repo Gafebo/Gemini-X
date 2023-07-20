@@ -1,2 +1,2 @@
 # Gemini-X
-Repositório criado para adicionar os arquivos do trabalho do curso de FRONT-END Senai
+Repositório criado para adicionar os arquivos do trabalho do curso de FRONT-END Senai do grupo GEMINI-X
