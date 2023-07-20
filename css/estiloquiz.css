@@ -1,0 +1,60 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: #170115;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0; */
+    color: rgb(160, 148, 159);
+    background-image: url("https://prairieheritagecenter.org/wp-content/uploads/2016/01/moo_2.jpg");
+    background-size: cover;
+  background-position: center;
+}
+
+#quiz-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(44, 13, 39);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #5a006a;
+    color:  rgb(160, 148, 159);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #7e0094;
+}
+
+#result-container {
+    margin-top: 20px;
+    text-align: center;
+}
