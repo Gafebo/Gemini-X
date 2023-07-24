@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+
+@font-face {
+
+    font-family: 'Be Vietnam Medium';
+
+    src: url("../Fontes/BeVietnam-Medium.woff");
+
+}
+
+@font-face {
+
+    font-family: 'Playlist';
+
+    src: url("../Fontes/Playlist\ Script.otf");
+
+}
+
+@font-face {
+
+    font-family: 'Kollektif';
+
+    src: url("../Fontes/Kollektif-Bold.ttf");
+
+}
+
+#menu-h {
+    background-color: #491C67;
+    border-radius: 38px;
+}
+
+#menu-h ul {
+    max-width: 100%;
+    padding: 0;
+    margin: 3%;
+}
+
+#menu-h ul li {
+    display: inline;
+    font-family: 'Be Vietnam Medium';
+    margin: 2px;
+}
+
+#menu-h ul li a {
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .8s;
+    border-radius: 38px;
+}
+
+#menu-h ul li a:hover {
+    background-color: #602e82;
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    letter-spacing: 1px;
+}
+
+
+
+.principal {
+    display: inline;
+    text-align: right;
+    flex-wrap: wrap;
+}
+
+.pesquisar li {
+    display: flex;
+    justify-content: left;
+    align-items: right;
+    flex-wrap: wrap;
+    width: 5px;
+    height: 0;
+    margin: 0;
+    color: #fff;
+}
+
+.pesquisar li a img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.logo li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    color: #fff;
+}
+
+.logo li a img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.perfil li {
+    display: inline;
+    flex-wrap: wrap;
+    margin: 15px;
+    color: #fff;
+}
+
+.perfil li a img {
+    width: 30px;
+}
+
+.promo {
+    box-sizing: content-box #491C67;
+    border-radius: 35%;
+}
