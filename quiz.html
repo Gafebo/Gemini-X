@@ -59,19 +59,19 @@
           // Determinar o resultado com base nas respostas
           let result;
           if (responses.a >= responses.b && responses.a >= responses.c && responses.a >= responses.d && responses.a >= responses.e) {
-            result = 'Sua pedra indicada é o quartzo rosa. Conhecida como a pedra do amor e da compaixão. Na astrologia, o amor e a compaixão estão associados ao planeta Vênus, que governa os relacionamentos, o afeto, o amor-próprio e os valores estéticos.';
+            result = ' Vênus - Feito do quartzo rosa Conhecida como a pedra do amor e da compaixão. Na astrologia, o amor e a compaixão estão associados ao planeta Vênus, que governa os relacionamentos, o afeto, o amor-próprio e os valores estéticos.';
           } else if (responses.b >= responses.c && responses.b >= responses.d && responses.b >= responses.e) {
-            result = 'Sua pedra indicada é a ágata. Ela representa equilíbrio, proteção e harmonia emocional. Essas características podem ser associadas à Lua, pois a Lua tem uma forte influência sobre as emoções e sentimentos. A Lua também está relacionada à intuição, proteção e feminilidade, aspectos que podem estar alinhados com as propriedades da ágata.';
+            result = ' Lua - Sua pedra indicada é a ágata. Ela representa equilíbrio, proteção e harmonia emocional. Essas características podem ser associadas à Lua, pois a Lua tem uma forte influência sobre as emoções e sentimentos. A Lua também está relacionada à intuição, proteção e feminilidade, aspectos que podem estar alinhados com as propriedades da ágata.';
           } else if (responses.c >= responses.d && responses.c >= responses.e) {
-            result = 'Sua pedra indicada é o olho de tigre. Ele promove equilíbrio emocional, foco mental e proteção. Podemos relacionar essa pedra com o Sol, pois o Sol é um símbolo de vitalidade, clareza mental e força de vontade. Além disso, o Sol está associado ao poder pessoal e à autoestima, características que o olho de tigre pode ajudar a reforçar.';
+            result = ' Sol - Feito da pedra olho de tigre. Ele promove equilíbrio emocional, foco mental e proteção. Podemos relacionar essa pedra com o Sol, pois o Sol é um símbolo de vitalidade, clareza mental e força de vontade. Além disso, o Sol está associado ao poder pessoal e à autoestima, características que o olho de tigre pode ajudar a reforçar..';
           } else if (responses.d >= responses.e) {
-            result = 'Sua pedra indicada é a granada. Ela energiza e traz motivação, vitalidade e paixão.Essas qualidades podem ser relacionadas ao planeta Marte, que representa a energia, a paixão, a ação e a força de vontade. A granada pode auxiliar no estímulo dessas características, alinhando-se com a energia marciana.';
+            result = ' Marte - Sua pedra indicada é a granada. Ela energiza e traz motivação, vitalidade e paixão. Essas qualidades podem ser relacionadas ao planeta Marte, que representa a energia, a paixão, a ação e a força de vontade. A granada pode auxiliar no estímulo dessas características, alinhando-se com a energia marciana.';
           } else {
-            result = 'Sua pedra indicada é a água-marinha. Ela é uma pedra calmante que pode ajudar a trazer um pouco da energia da natureza para o seu dia a dia. Ela pode ser relacionada com o elemento água e o planeta Netuno. Netuno está associado à intuição, inspiração, imaginação e à conexão com o reino espiritual. A água-marinha, com sua sensação refrescante e calmante, pode simbolizar a energia do elemento água e as propriedades inspiradoras de Netuno.';
+            result = ' Netuno -  Pedra indicada é a água-marinha. Ela é uma pedra calmante que pode ajudar a trazer um pouco da energia da natureza para o seu dia a dia. Ela pode ser relacionada com o elemento água e o planeta Netuno. Netuno está associado à intuição, inspiração, imaginação e à conexão com o reino espiritual. A água-marinha, com sua sensação refrescante e calmante, pode simbolizar a energia do elemento água e as propriedades inspiradoras de Netuno.';
           }
         
           // Exibir o resultado
-          resultContainer.innerHTML = `<p>Sua pedra indicada é: ${result}.</p>`;
+          resultContainer.innerHTML = `<p>Seu colar indicado é: ${result}.</p>`;
         }
     </script>
 </body>
