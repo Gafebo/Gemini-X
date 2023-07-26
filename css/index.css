@@ -211,7 +211,7 @@
 }
 
 .Banner button {
-    background-color: #550047;
+    background-color: #491C67;
     padding: 1rem 3rem 1rem 3rem;
     border: none;
     border-radius: 5px;
@@ -248,9 +248,8 @@
 }
 
 .Banner h1,
-.Banner p,
-.Banner button {
-    color: white;
+.Banner p{
+    color: #491C67;
     /* Define a cor do texto para que seja visível na imagem de fundo */
     /* Outros estilos para o texto, se necessário */
 }
@@ -259,7 +258,7 @@
     display: flex;
     gap: 5rem;
     justify-content: space-around;
-    background-color: #610264;
+    background-color: #491C67;
     padding: 8rem;
     margin-top: 5rem;
     display: grid;
@@ -291,6 +290,6 @@
 
 .last-text {
     text-align: center;
-    background-color: #000000;
+    background-color: #491C67;
     color: #fff;
 }
