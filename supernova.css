@@ -1,0 +1,28 @@
+.supernova
+{
+  position: absolute;
+  top: 45%;
+  margin-left: 37%
+  
+}
+
+.supernova img{
+    
+    margin: 11px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #682e68;
+    border-radius: 5%;
+    
+}
+
+.zoom {
+    
+    transition: transform .2s; /* Animation */
+    
+  }
+  
+  .zoom:hover {
+
+    transform: scale(2.0); /* (200% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }

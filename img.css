@@ -1,0 +1,142 @@
+
+.body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.Titulo{
+    background-color: #d3aed3;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 2em;
+    padding: 0%;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+   
+}
+
+.colares1 img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 0;
+    border: 2px solid #682e68;
+    border-radius: 5%;
+    cursor: pointer;
+    
+}
+
+
+.colares2 img {
+    margin-bottom: 0%;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #682e68;
+    border-radius: 5%;
+    cursor: pointer;
+    
+
+}
+
+.Produto {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 150px 100px 0 100px;
+    text-align: center;
+    
+    
+}
+
+.Produto1{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 100px 100px 0 100px;
+    text-align: center;
+}
+
+.Produto p{
+    position: absolute;
+    margin-left: 50px;
+    
+}
+.Produto1 p{
+    position: absolute;
+    margin-left: 60px;
+    
+}
+
+.comprar button {
+    position: absolute;
+    margin-left: 35px;
+    background: transparent;
+    border: 2px solid #682e68;
+    color: #682e68;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border-radius: 10px;
+   
+}
+
+.comprar button:hover {
+    box-shadow: 0 0 15px #682e68, inset 0 0 15px #682e68;
+   
+    
+}
+
+
+.Produto img:hover{
+    box-shadow: 0 0 15px #682e68, inset 0 0 15px #682e68;
+    
+    
+}
+
+.Produto1 img:hover{
+    box-shadow: 0 0 15px #682e68, inset 0 0 15px #682e68;
+}
+
+
+
+#Contato {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: #491C67;
+    padding: 8rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    border: solid black;
+}
+
+.meio-contato h3 {
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+}
+
+.meio-contato h5 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.meio-contato li {
+    margin-bottom: 15px;
+}
+
+.meio-contato li a {
+    display: block;
+    color: #ffffff;
+    font-weight: 600;
+    transition: all .35s ease;
+}
+
+.last-text {
+    text-align: center;
+    background-color: #491C67;
+    color: #fff;
+}
